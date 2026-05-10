@@ -8,14 +8,14 @@ const DATA_FILES = {
 };
 
 const menus = [
-  ['dashboard.html', '대시보드', '▣'],
-  ['inbound.html', '입고 관리', 'IN'],
-  ['outbound.html', '출고 관리', 'OUT'],
-  ['inventory.html', '재고 현황', 'ST'],
-  ['history.html', '입출고 이력', 'H'],
-  ['products.html', '품목 관리', 'P'],
-  ['locations.html', '창고 위치 관리', 'L'],
-  ['users.html', '사용자 관리', 'U']
+  ['dashboard.html', '대시보드', '🏠'],
+  ['inbound.html', '입고 관리', '📥'],
+  ['outbound.html', '출고 관리', '📤'],
+  ['inventory.html', '재고 현황', '📦'],
+  ['history.html', '입출고 이력', '🧾'],
+  ['products.html', '품목 관리', '🏷️'],
+  ['locations.html', '창고 위치 관리', '📍'],
+  ['users.html', '사용자 관리', '👥']
 ];
 
 const pageState = {};
@@ -62,7 +62,7 @@ function layout(pageTitle, activeFile) {
 
   document.querySelector('#app').innerHTML = `
     <aside class="sidebar">
-      <div class="brand"><span class="brand-mark">W</span><span>WMS</span></div>
+      <div class="brand"><span class="brand-mark">📦</span><span>WMS</span></div>
       <nav class="menu">${menuHtml}</nav>
       <div class="sidebar-footer">
         JSON 기반 교육용 플랫폼<br>
@@ -76,7 +76,7 @@ function layout(pageTitle, activeFile) {
           <div class="page-subtitle">GitHub 저장소의 JSON 파일을 기준 데이터로 사용하는 정적 WMS 실습 화면</div>
         </div>
         <div class="user-chip">
-          <span class="avatar">${escapeHtml(user.name.slice(0, 1))}</span>
+          <span class="avatar">👤</span>
           <span>${escapeHtml(user.name)} · ${escapeHtml(user.role)}</span>
           <button class="btn small" onclick="resetLocalData()">데이터 초기화</button>
           <button class="btn small" onclick="logout()">로그아웃</button>
@@ -160,16 +160,19 @@ function pagination(pageKey, rows) {
   }
   return `
     <div class="pagination">
-      <div>전체 ${formatNumber(total)}건 · ${state.page}/${totalPages} 페이지</div>
+      <div class="page-summary">전체 ${formatNumber(total)}건 · ${state.page}/${totalPages} 페이지</div>
       <div class="page-actions">
-        <select onchange="setPageSize('${pageKey}', this.value)">
-          ${[10, 20, 30, 50].map(n => `<option value="${n}" ${Number(state.pageSize) === n ? 'selected' : ''}>${n}개씩</option>`).join('')}
-        </select>
         <button class="page-btn" onclick="setPage('${pageKey}', 1)">처음</button>
         <button class="page-btn" onclick="setPage('${pageKey}', ${Math.max(1, state.page - 1)})">이전</button>
         ${pages.join('')}
         <button class="page-btn" onclick="setPage('${pageKey}', ${Math.min(totalPages, state.page + 1)})">다음</button>
         <button class="page-btn" onclick="setPage('${pageKey}', ${totalPages})">끝</button>
+      </div>
+      <div class="page-size">
+        <span>표시</span>
+        <select onchange="setPageSize('${pageKey}', this.value)">
+          ${[10, 20, 30, 50].map(n => `<option value="${n}" ${Number(state.pageSize) === n ? 'selected' : ''}>${n}개씩</option>`).join('')}
+        </select>
       </div>
     </div>
   `;
@@ -334,11 +337,11 @@ async function initDashboard() {
       <div class="panel-head"><div class="panel-title">WMS 업무 프로세스</div><button class="btn" onclick="downloadProcessGuide()">프로세스 CSV 다운로드</button></div>
       <div class="process-flow">
         ${[
-          ['입고 등록', '입고 예정 또는 실제 입고 정보를 등록합니다.'], ['입고 검수', '입고 상품의 수량과 상태를 확인합니다.'],
-          ['재고 증가', '검수 완료 후 현재 재고를 증가시킵니다.'], ['출고 요청', '거래처 출고 요청 정보를 등록합니다.'],
-          ['피킹', '창고 위치에서 출고 대상 상품을 피킹합니다.'], ['출고 확정', '실제 출고 완료 상태로 확정합니다.'],
-          ['재고 차감', '출고 수량만큼 현재 재고를 차감합니다.'], ['이력 조회', '입고와 출고의 전체 이력을 추적합니다.']
-        ].map((s, i) => `<div class="step"><div class="step-icon">${i + 1}</div><div class="step-title">${s[0]}</div><div class="step-desc">${s[1]}</div></div>`).join('')}
+          ['📥', '입고 등록', '입고 예정 또는 실제 입고 정보를 등록합니다.'], ['🔎', '입고 검수', '입고 상품의 수량과 상태를 확인합니다.'],
+          ['📦', '재고 증가', '검수 완료 후 현재 재고를 증가시킵니다.'], ['📝', '출고 요청', '거래처 출고 요청 정보를 등록합니다.'],
+          ['🛒', '피킹', '창고 위치에서 출고 대상 상품을 피킹합니다.'], ['🚚', '출고 확정', '실제 출고 완료 상태로 확정합니다.'],
+          ['📉', '재고 차감', '출고 수량만큼 현재 재고를 차감합니다.'], ['🧾', '이력 조회', '입고와 출고의 전체 이력을 추적합니다.']
+        ].map((s) => `<div class="step"><div class="step-icon">${s[0]}</div><div class="step-title">${s[1]}</div><div class="step-desc">${s[2]}</div></div>`).join('')}
       </div>
     </section>
     <div class="kpi-grid">
