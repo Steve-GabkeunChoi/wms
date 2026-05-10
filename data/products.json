@@ -1,0 +1,218 @@
+[
+  {
+    "productCode": "P001",
+    "productName": "무선 마우스",
+    "category": "PC주변기기",
+    "unit": "EA",
+    "safeStock": 30,
+    "useYn": "미사용"
+  },
+  {
+    "productCode": "P002",
+    "productName": "기계식 키보드",
+    "category": "PC주변기기",
+    "unit": "EA",
+    "safeStock": 100,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P003",
+    "productName": "USB 허브",
+    "category": "PC주변기기",
+    "unit": "EA",
+    "safeStock": 80,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P004",
+    "productName": "웹캠",
+    "category": "PC주변기기",
+    "unit": "EA",
+    "safeStock": 100,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P005",
+    "productName": "블루투스 스피커",
+    "category": "PC주변기기",
+    "unit": "EA",
+    "safeStock": 30,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P006",
+    "productName": "노트북 파우치",
+    "category": "PC주변기기",
+    "unit": "EA",
+    "safeStock": 150,
+    "useYn": "미사용"
+  },
+  {
+    "productCode": "P007",
+    "productName": "모니터 24인치",
+    "category": "모니터",
+    "unit": "EA",
+    "safeStock": 80,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P008",
+    "productName": "모니터 27인치",
+    "category": "모니터",
+    "unit": "EA",
+    "safeStock": 200,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P009",
+    "productName": "모니터 암",
+    "category": "모니터",
+    "unit": "EA",
+    "safeStock": 150,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P010",
+    "productName": "HDMI 케이블",
+    "category": "모니터",
+    "unit": "EA",
+    "safeStock": 150,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P011",
+    "productName": "A4 복사용지",
+    "category": "사무용품",
+    "unit": "BOX",
+    "safeStock": 30,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P012",
+    "productName": "라벨지",
+    "category": "사무용품",
+    "unit": "BOX",
+    "safeStock": 80,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P013",
+    "productName": "클립 세트",
+    "category": "사무용품",
+    "unit": "BOX",
+    "safeStock": 200,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P014",
+    "productName": "파일 바인더",
+    "category": "사무용품",
+    "unit": "BOX",
+    "safeStock": 30,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P015",
+    "productName": "볼펜 세트",
+    "category": "사무용품",
+    "unit": "BOX",
+    "safeStock": 200,
+    "useYn": "미사용"
+  },
+  {
+    "productCode": "P016",
+    "productName": "USB 케이블",
+    "category": "케이블",
+    "unit": "EA",
+    "safeStock": 200,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P017",
+    "productName": "LAN 케이블",
+    "category": "케이블",
+    "unit": "EA",
+    "safeStock": 80,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P018",
+    "productName": "전원 케이블",
+    "category": "케이블",
+    "unit": "EA",
+    "safeStock": 200,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P019",
+    "productName": "C타입 젠더",
+    "category": "케이블",
+    "unit": "EA",
+    "safeStock": 30,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P020",
+    "productName": "노트북 거치대",
+    "category": "액세서리",
+    "unit": "EA",
+    "safeStock": 80,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P021",
+    "productName": "마우스 패드",
+    "category": "액세서리",
+    "unit": "EA",
+    "safeStock": 150,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P022",
+    "productName": "멀티탭",
+    "category": "액세서리",
+    "unit": "EA",
+    "safeStock": 100,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P023",
+    "productName": "태블릿 스탠드",
+    "category": "액세서리",
+    "unit": "EA",
+    "safeStock": 50,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P024",
+    "productName": "박스 테이프",
+    "category": "포장자재",
+    "unit": "ROLL",
+    "safeStock": 50,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P025",
+    "productName": "에어캡",
+    "category": "포장자재",
+    "unit": "ROLL",
+    "safeStock": 100,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P026",
+    "productName": "완충재",
+    "category": "포장자재",
+    "unit": "ROLL",
+    "safeStock": 100,
+    "useYn": "사용"
+  },
+  {
+    "productCode": "P027",
+    "productName": "택배 박스",
+    "category": "포장자재",
+    "unit": "ROLL",
+    "safeStock": 50,
+    "useYn": "사용"
+  }
+]

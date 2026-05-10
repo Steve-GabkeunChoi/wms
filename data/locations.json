@@ -1,0 +1,578 @@
+[
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "01",
+    "cell": "01",
+    "status": "사용 중지",
+    "capacity": 17
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "01",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 4
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "01",
+    "cell": "03",
+    "status": "사용 중지",
+    "capacity": 17
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "02",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 13
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "02",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 12
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "02",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 4
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "03",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 5
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "03",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 7
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "03",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 0
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "04",
+    "cell": "01",
+    "status": "사용 중지",
+    "capacity": 18
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "04",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 8
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "A",
+    "rack": "04",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 0
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "01",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 13
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "01",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 19
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "01",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 4
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "02",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 14
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "02",
+    "cell": "02",
+    "status": "사용 중지",
+    "capacity": 12
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "02",
+    "cell": "03",
+    "status": "사용 중지",
+    "capacity": 12
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "03",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 15
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "03",
+    "cell": "02",
+    "status": "사용 중지",
+    "capacity": 1
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "03",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 2
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "04",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 14
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "04",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 3
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "B",
+    "rack": "04",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 19
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "01",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 3
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "01",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 18
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "01",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 17
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "02",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 11
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "02",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 2
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "02",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 19
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "03",
+    "cell": "01",
+    "status": "사용 중지",
+    "capacity": 4
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "03",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 11
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "03",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 15
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "04",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 3
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "04",
+    "cell": "02",
+    "status": "사용 중지",
+    "capacity": 14
+  },
+  {
+    "warehouse": "A창고",
+    "zone": "C",
+    "rack": "04",
+    "cell": "03",
+    "status": "사용 중지",
+    "capacity": 15
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "01",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 2
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "01",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 3
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "01",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 8
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "02",
+    "cell": "01",
+    "status": "사용 중지",
+    "capacity": 5
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "02",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 6
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "02",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 4
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "03",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 16
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "03",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 20
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "03",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 8
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "04",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 5
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "04",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 7
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "A",
+    "rack": "04",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 20
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "01",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 19
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "01",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 7
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "01",
+    "cell": "03",
+    "status": "사용 중지",
+    "capacity": 7
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "02",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 16
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "02",
+    "cell": "02",
+    "status": "사용 중지",
+    "capacity": 11
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "02",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 0
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "03",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 15
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "03",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 6
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "03",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 14
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "04",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 11
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "04",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 7
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "B",
+    "rack": "04",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 7
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "01",
+    "cell": "01",
+    "status": "사용 중지",
+    "capacity": 6
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "01",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 6
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "01",
+    "cell": "03",
+    "status": "사용 중지",
+    "capacity": 19
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "02",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 15
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "02",
+    "cell": "02",
+    "status": "사용 가능",
+    "capacity": 20
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "02",
+    "cell": "03",
+    "status": "사용 가능",
+    "capacity": 3
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "03",
+    "cell": "01",
+    "status": "사용 중지",
+    "capacity": 6
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "03",
+    "cell": "02",
+    "status": "사용 중지",
+    "capacity": 5
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "03",
+    "cell": "03",
+    "status": "사용 중지",
+    "capacity": 20
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "04",
+    "cell": "01",
+    "status": "사용 가능",
+    "capacity": 2
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "04",
+    "cell": "02",
+    "status": "사용 중지",
+    "capacity": 14
+  },
+  {
+    "warehouse": "B창고",
+    "zone": "C",
+    "rack": "04",
+    "cell": "03",
+    "status": "사용 중지",
+    "capacity": 2
+  }
+]

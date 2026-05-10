@@ -1,0 +1,162 @@
+[
+  {
+    "id": "U001",
+    "name": "관리자",
+    "email": "admin@wms.com",
+    "password": "1234",
+    "role": "관리자",
+    "department": "운영관리",
+    "status": "정상",
+    "lastLogin": "2026-05-09 10:20"
+  },
+  {
+    "id": "U002",
+    "name": "김입고",
+    "email": "inbound@wms.com",
+    "password": "1234",
+    "role": "입고담당자",
+    "department": "입고팀",
+    "status": "정상",
+    "lastLogin": "2026-05-08 11:20"
+  },
+  {
+    "id": "U003",
+    "name": "이출고",
+    "email": "outbound@wms.com",
+    "password": "1234",
+    "role": "출고담당자",
+    "department": "출고팀",
+    "status": "정상",
+    "lastLogin": "2026-05-07 12:20"
+  },
+  {
+    "id": "U004",
+    "name": "박재고",
+    "email": "stock@wms.com",
+    "password": "1234",
+    "role": "창고담당자",
+    "department": "재고관리팀",
+    "status": "정상",
+    "lastLogin": "2026-05-06 13:20"
+  },
+  {
+    "id": "U005",
+    "name": "한담당5",
+    "email": "user05@wms.com",
+    "password": "1234",
+    "role": "출고담당자",
+    "department": "출고팀",
+    "status": "대기",
+    "lastLogin": "2026-05-01 09:52"
+  },
+  {
+    "id": "U006",
+    "name": "문담당6",
+    "email": "user06@wms.com",
+    "password": "1234",
+    "role": "관리자",
+    "department": "운영관리",
+    "status": "정상",
+    "lastLogin": "2026-05-09 11:02"
+  },
+  {
+    "id": "U007",
+    "name": "유담당7",
+    "email": "user07@wms.com",
+    "password": "1234",
+    "role": "관리자",
+    "department": "운영관리",
+    "status": "대기",
+    "lastLogin": "2026-05-02 11:05"
+  },
+  {
+    "id": "U008",
+    "name": "최담당8",
+    "email": "user08@wms.com",
+    "password": "1234",
+    "role": "창고담당자",
+    "department": "재고관리팀",
+    "status": "정상",
+    "lastLogin": "2026-05-04 18:40"
+  },
+  {
+    "id": "U009",
+    "name": "유담당9",
+    "email": "user09@wms.com",
+    "password": "1234",
+    "role": "관리자",
+    "department": "운영관리",
+    "status": "정상",
+    "lastLogin": "2026-05-04 08:35"
+  },
+  {
+    "id": "U010",
+    "name": "서담당10",
+    "email": "user10@wms.com",
+    "password": "1234",
+    "role": "입고담당자",
+    "department": "입고팀",
+    "status": "대기",
+    "lastLogin": "2026-05-03 16:07"
+  },
+  {
+    "id": "U011",
+    "name": "한담당11",
+    "email": "user11@wms.com",
+    "password": "1234",
+    "role": "출고담당자",
+    "department": "출고팀",
+    "status": "정상",
+    "lastLogin": "2026-05-10 17:40"
+  },
+  {
+    "id": "U012",
+    "name": "문담당12",
+    "email": "user12@wms.com",
+    "password": "1234",
+    "role": "입고담당자",
+    "department": "입고팀",
+    "status": "정상",
+    "lastLogin": "2026-05-09 09:36"
+  },
+  {
+    "id": "U013",
+    "name": "오담당13",
+    "email": "user13@wms.com",
+    "password": "1234",
+    "role": "관리자",
+    "department": "운영관리",
+    "status": "대기",
+    "lastLogin": "2026-05-09 14:49"
+  },
+  {
+    "id": "U014",
+    "name": "장담당14",
+    "email": "user14@wms.com",
+    "password": "1234",
+    "role": "출고담당자",
+    "department": "출고팀",
+    "status": "대기",
+    "lastLogin": "2026-05-06 12:15"
+  },
+  {
+    "id": "U015",
+    "name": "오담당15",
+    "email": "user15@wms.com",
+    "password": "1234",
+    "role": "입고담당자",
+    "department": "입고팀",
+    "status": "정상",
+    "lastLogin": "2026-05-10 12:33"
+  },
+  {
+    "id": "U016",
+    "name": "문담당16",
+    "email": "user16@wms.com",
+    "password": "1234",
+    "role": "창고담당자",
+    "department": "재고관리팀",
+    "status": "대기",
+    "lastLogin": "2026-05-05 17:04"
+  }
+]
